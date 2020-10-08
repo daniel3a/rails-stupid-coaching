@@ -1,0 +1,19 @@
+<div id='you'>
+  <p> <%= @question  %></p>
+  <p> -You</p>
+</div>
+
+<div id='your-coach'>
+  <% if @question == 'I am going to work' %>
+    <p> <%= 'Great!' %> </p>
+  <% elsif @question.include? "?" %>
+    <p> <%= 'Silly question, get dressed and go to work!' %> </p>
+  <% else %>
+    <p> <%='I don\'t care, get dressed and go to work!' %> </p>
+  <% end %>
+  <p>-Your coach</p>
+</div>
+
+
+<%= link_to 'Ask a new question', 'ask' %>
+
