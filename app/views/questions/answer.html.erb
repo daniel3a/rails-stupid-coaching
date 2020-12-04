@@ -1,6 +1,6 @@
 <div id='you'>
   <p> <%= @question  %></p>
-  <p> -You</p>
+  <p class="italic"> -You</p>
 </div>
 
 <div id='your-coach'>
@@ -11,9 +11,9 @@
   <% else %>
     <p> <%='I don\'t care, get dressed and go to work!' %> </p>
   <% end %>
-  <p>-Your coach</p>
+  <p class="italic">-Your coach</p>
 </div>
 
 
-<%= link_to 'Ask a new question', 'ask' %>
+<%= link_to 'Ask a new question', 'ask', class: 'ask' %>
 

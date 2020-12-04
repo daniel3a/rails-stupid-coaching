@@ -23,7 +23,33 @@
 
 #you {
   background-color: white;
-  border-left-color: grey;
-  border-width: 2px;
-  width: 60%;
+  padding: 3px 12px;
+  margin: 20px;
+  border-left-style: solid;
+  border-left-color: lightgrey;
+  border-width: 3px;
+  width: 30%;
+
+}
+
+#your-coach{
+  background-color: rgb(255,209,220);
+  padding: 3px 12px;
+  margin: 20px;
+  border-left-style: solid;
+  border-left-color: lightgrey;
+  border-width: 3px;
+  width: 30%;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+.ask {
+  margin-left: 20px;
+}
+
+.italic {
+  font-style: italic;
 }
